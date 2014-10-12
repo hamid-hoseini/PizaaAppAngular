@@ -1,0 +1,42 @@
+<div class="row">
+    <div class="large-3 columns">
+        <img ng-src="public/images/{{ordered.image}}" alt=""/>
+        <br/>
+        <span>{{ordered.type}} : {{ordered.name}}</span>
+    </div>
+    <div id="toppings" class="large-9 columns">
+
+        <p>Please select your favorite toppings ...</p>
+
+        <!--{{ordered.toppings}}-->
+        <label ng-repeat="topp in ordered.toppings">
+            <input
+                    type="checkbox"
+                    name="selectedFruits[]"
+                    value="{{topp}}"
+                    ng-checked="selection.indexOf(topp) > -1"
+                    ng-click="toggleSelection(topp)"> {{topp}}
+        </label>
+    </div>
+</div>
+
+
+<script type="text/ng-template" id="modal.html">
+    <div class="modal-header">
+        <h3 class="modal-title">Thank you for your order!</h3>
+    </div>
+    <div class="modal-body">
+        <span>{{mySelect.type}} : {{mySelect.name}} </span>
+        <br/>
+        <img ng-src="public/images/{{mySelect.image}}" alt=""/>
+        <br/>
+
+        <span ng-show="showTopp"><strong>your selected toppings are:</strong> {{toppSelection}}</span>
+        <span ng-show="showNoTopp"><strong>Unfortunately you didn't select any toppings. Please Try again...</strong></span>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-primary" ng-click="ok()">OK</button>
+        <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+    </div>
+</script>
+<button class="btn btn-default" ng-click="open()">Submit</button>

@@ -1,0 +1,25 @@
+<h5>Order Online ...</h5>
+<!--<p>Selected: {{cityname.selected}}</p>-->
+<ui-select ng-model="cityname.selected" theme="selectize" ng-disabled="disabled" on-select="cityFunction($item)" style="width: 30%;">
+    <ui-select-match placeholder="Select or search a state...">{{$select.selected.city_name}}</ui-select-match>
+    <ui-select-choices repeat="cityname in pizzaData | filter: $select.search" >
+        <span ng-bind-html="cityname.city_name | highlight: $select.search" ></span>
+    </ui-select-choices>
+</ui-select>
+
+<ui-select ng-model="franchise.selected" theme="selectize" ng-disabled="disabled" on-select="franchiseFunction($item)" style="width: 30%;">
+    <ui-select-match placeholder="Select or search a franchise...">{{$select.selected.name}}</ui-select-match>
+    <ui-select-choices repeat="franchise in allFranchise | filter: $select.search" >
+        <span ng-bind-html="franchise.name | highlight: $select.search" ></span>
+    </ui-select-choices>
+</ui-select>
+
+<ul class="small-block-grid-3" ng-show="show">
+    <li ng-repeat="pizza in pizzaNames">
+        <a ui-sref="toppings" ng-click="selectedPizza(pizza)" data={{pizza}}>
+            <img ng-src="public/images/{{pizza.image}}" alt=""/>
+            <br/>
+            <span>{{pizza.type}} : {{pizza.name}}</span>
+        </a>
+    </li>
+</ul>

@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: #ffce92;
+    min-height: 100%;
+    background-image: url('../images/pizzabanner.jpg');
+    background-size: cover;
+}
+li > a >  img{
+    width: 200px;
+    height: 200px;
+}
+#toppings{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+input[type="text"]{
+    width : 50%;
+}
+input[type="email"]{
+    width : 50%;
+}
+input[type="password"]{
+    width : 50%;
+}
+a:hover{
+    text-decoration: none;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="pizzaApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Pizza Application Using AngularJS</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/foundation/css/foundation.css"/>
+    <link rel="stylesheet" href="bower_components/angular-ui-select/dist/select.min.css">
+    <link rel="stylesheet" href="bower_components/selectize/dist/css/selectize.default.css">
+
+    <link rel="stylesheet" href="public/css/style.css"/>
+</head>
+<body ng-controller="appCtrl">
+
+<div class="contain-to-grid">
+    <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="#">Pizza Web Application</a></h1>
+            </li>
+        </ul>
+        <section class="top-bar-section">
+            <ul class="right">
+                <li class=""><a ui-sref="signin">Sign in</a></li>
+                <li class=""><a ui-sref="register">Register</a></li>
+                <li class=""><a ui-sref="order">Order</a></li>
+
+            </ul>
+        </section>
+    </nav>
+</div>
+<div class="panel">
+    <div ui-view></div>
+
+
+</div>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-sanitize.js"></script>
+<script src="bower_components/angular-ui-select/dist/select.min.js"></script>
+<script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js"></script>
+
+<script src="public/js/app.js"></script>
+</body>
+</html>

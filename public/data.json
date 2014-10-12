@@ -1,0 +1,249 @@
+{
+    "data": [
+        {
+            "city_name" : "New York",
+            "all_franchise" : [
+                {
+                    "name" : "N_franchise1",
+                    "address" : "st1, New York",
+                    "pizza_names" : [
+                        {
+                            "id" : 1,
+                            "type" : "vegetables",
+                            "name" : "N_F1_pizza1",
+                            "image": "1.jpg"
+                        },
+                        {
+                            "id" : 2,
+                            "type" : "cheese",
+                            "name" : "N_F1_pizza2",
+                            "image": "2.jpg"
+                        },
+                        {
+                            "id" : 3,
+                            "type" : "meats",
+                            "name" : "N_F1_pizza3",
+                            "image": "3.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name" : "N_franchise2",
+                    "address" : "st2, New York",
+                    "pizza_names" : [
+                        {
+                            "id" : 4,
+                            "type" : "vegetables",
+                            "name" : "N_F2_pizza1",
+                            "image": "4.jpg"
+                        },
+                        {
+                            "id" : 5,
+                            "type" : "cheese",
+                            "name" : "N_F2_pizza2",
+                            "image": "5.jpg"
+                        },
+                        {
+                            "id" : 6,
+                            "type" : "meats",
+                            "name" : "N_F2_pizza3",
+                            "image": "6.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name" : "N_franchise3",
+                    "address" : "st3, New York",
+                    "pizza_names" : [
+                        {
+                            "id" : 7,
+                            "type" : "vegetables",
+                            "name" : "N_F3_pizza1",
+                            "image": "7.jpg"
+                        },
+                        {
+                            "id" : 8,
+                            "type" : "cheese",
+                            "name" : "N_F3_pizza2",
+                            "image": "8.jpg"
+                        },
+                        {
+                            "id" : 9,
+                            "type" : "meats",
+                            "name" : "N_F3_pizza3",
+                            "image": "9.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "city_name": "Chicago",
+            "all_franchise": [
+                {
+                    "name": "C_franchise1",
+                    "address": "st1, Chicago",
+                    "pizza_names": [
+                        {
+                            "id" : 10,
+                            "type": "vegetables",
+                            "name": "C_F1_pizza1",
+                            "image": "10.jpg"
+                        },
+                        {
+                            "id" : 11,
+                            "type": "cheese",
+                            "name": "C_F1_pizza2",
+                            "image": "11.jpg"
+                        },
+                        {
+                            "id" : 12,
+                            "type": "meats",
+                            "name": "C_F1_pizza3",
+                            "image": "12.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "C_franchise2",
+                    "address": "st2, Chicago",
+                    "pizza_names": [
+                        {
+                            "id" : 13,
+                            "type": "vegetables",
+                            "name": "C_F2_pizza1",
+                            "image": "13.jpg"
+                        },
+                        {
+                            "id" : 14,
+                            "type": "cheese",
+                            "name": "C_F2_pizza2",
+                            "image": "14.jpg"
+                        },
+                        {
+                            "id" : 15,
+                            "type": "meats",
+                            "name": "C_F2_pizza3",
+                            "image": "15.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "C_franchise3",
+                    "address": "st3, Chicago",
+                    "pizza_names": [
+                        {
+                            "id" : 16,
+                            "type": "vegetables",
+                            "name": "C_F3_pizza1",
+                            "image": "16.jpg"
+                        },
+                        {
+                            "id" : 17,
+                            "type": "cheese",
+                            "name": "C_F3_pizza2",
+                            "image": "17.jpg"
+                        },
+                        {
+                            "id" : 18,
+                            "type": "meats",
+                            "name": "C_F3_pizza3",
+                            "image": "18.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "C_franchise4",
+                    "address": "st4, Chicago",
+                    "pizza_names": [
+                        {
+                            "id" : 19,
+                            "type": "vegetables",
+                            "name": "C_F4_pizza1",
+                            "image": "19.jpg"
+                        },
+                        {
+                            "id" : 20,
+                            "type": "cheese",
+                            "name": "C_F4_pizza2",
+                            "image": "20.jpg"
+                        },
+                        {
+                            "id" : 21,
+                            "type": "meats",
+                            "name": "C_F4_pizza3",
+                            "image": "21.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "city_name": "San Francisco",
+            "all_franchise": [
+                {
+                    "name": "S_franchise1",
+                    "address": "st1, San Francisco",
+                    "pizza_names": [
+                        {
+                            "id" : 22,
+                            "type": "vegetables",
+                            "name": "S_F1_pizza1",
+                            "image": "22.jpg"
+                        },
+                        {
+                            "id" : 23,
+                            "type": "cheese",
+                            "name": "S_F1_pizza2",
+                            "image": "23.jpg"
+                        },
+                        {
+                            "id" : 24,
+                            "type": "meats",
+                            "name": "S_F1_pizza3",
+                            "image": "24.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "S_franchise2",
+                    "address": "st2, San Francisco",
+                    "pizza_names": [
+                        {
+                            "id" : 25,
+                            "type": "vegetables",
+                            "name": "S_F2_pizza1",
+                            "image": "25.jpg"
+                        },
+                        {
+                            "id" : 26,
+                            "type": "cheese",
+                            "name": "S_F2_pizza2",
+                            "image": "1.jpg"
+                        },
+                        {
+                            "id" : 27,
+                            "type": "meats",
+                            "name": "S_F2_pizza3",
+                            "image": "2.jpg"
+                        }
+                    ]
+                }
+
+            ]
+        }
+    ],
+    "all_toppings" : [
+        {
+            "type" : "vegetables",
+            "toppings" : ["Alfalfa Sprouts ", "Artichoke hearts ", "Avocado ", "Baby leeks ", "Beetroot ", "Black Beans ", "Broccoli ", "Capers ", "Capicolla ", "Carrot ", "Cherry tomatoes ", "Dried tomatoes ", "Eggplant ", "Fungi ", "Fungi carciofi ", "Green peppers " ]
+        },{
+            "type" : "cheese",
+            "toppings" :  ["Blue Cheese", "Brie", "Camembert", "Chedar", "Colby", "Feta", "Goat Cheese", "Gorgonzola", "Limburger", "Manchego", "Monterey Jack", "Parmesan", "Mozzarella", "Muenster", "Port de Salut", "Provolone", "Ricota", "Romano", "Roquefort", "Smoked Gouda"]
+        },
+        {
+            "type" : "meats",
+            "toppings" :  ["Bacon", "BBQ Chicken", "Beef", "Cajun Chicken", "Chicken Masala", "Chicken Tikka", "Chorizo", "Duck", "Ham", "Honey Cured Ham", "Meatballs", "Pepperoni", "Proscuitto", "Salami", "Sausage", "Serrano Ham", "Turkey", "Venison"]
+        }
+    ]
+}

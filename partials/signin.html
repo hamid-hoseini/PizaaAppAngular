@@ -1,0 +1,26 @@
+<div class="">
+
+    <!-- PAGE HEADER -->
+    <div class=""><h3>Sign In...</h3></div>
+
+    <!-- pass in the variable if our form is valid or invalid -->
+    <form name="userForm" ng-submit="signinForm(userForm.$valid)" >
+
+        <!-- USERNAME -->
+        <div class="form-group" ng-class="{ 'has-error' : userForm.username.$invalid && !userForm.username.$pristine }">
+            <label>Username</label>
+            <input type="text" name="username" class="form-control" ng-model="user.username" required ng-minlength="3" ng-maxlength="8">
+        </div>
+
+
+        <!-- password -->
+        <div class="form-group" ng-class="{ 'has-error' : userForm.password.$invalid && !userForm.password.$pristine }">
+            <label>Password</label>
+            <input type="password" name="password" class="form-control" ng-model="user.password" required ng-minlength="5" ng-maxlength="10">
+        </div>
+
+        <button type="submit" class="btn btn-default">Sign In</button>
+
+    </form>
+
+</div>
